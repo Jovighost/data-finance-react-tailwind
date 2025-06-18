@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/hero'
 import {AiOutlineClose , AiOutlineMenu} from 'react-icons/ai'
+import Analystics from './components/Analystics'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <div>
         <Navbar/>
         <Hero/>
+        <Analystics/>
       </div>
      
     </>
