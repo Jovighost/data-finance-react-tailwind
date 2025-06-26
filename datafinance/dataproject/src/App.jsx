@@ -4,6 +4,10 @@ import Navbar from './components/Navbar'
 import Hero from './components/hero'
 import {AiOutlineClose , AiOutlineMenu} from 'react-icons/ai'
 import Analystics from './components/Analystics'
+import Newsletter from './components/Newsletter'
+import Cards from './components/cards'
+import Footer from './components/footer'
+
 
 
 function App() {
@@ -15,6 +19,9 @@ function App() {
         <Navbar/>
         <Hero/>
         <Analystics/>
+        <Newsletter/>
+        <Cards/>
+        <Footer/>
       </div>
      
     </>
